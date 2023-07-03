@@ -78,7 +78,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string connectionString = "Data Source=MSSQLSERVERR;Initial Catalog=EmpleadosDB;";
+        string connectionString = ""; // Aqui es donde tuve problemas, ya que puse algo diferente en la uni. Y cuando lo iba a hacer aqui, puse su bsd y nombre del sv y no funciona
 
         EmpleadosDB empleadosDB = new EmpleadosDB(connectionString);
 
